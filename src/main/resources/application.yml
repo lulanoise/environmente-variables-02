@@ -1,0 +1,15 @@
+server:
+  port: 9000
+---
+environment: production
+server:
+  port: 5000
+myCustomEnvs:
+  welcomeMsg: Hello from Prod
+---
+environment: test
+server:
+  port: 4000
+myCustomEnvs:
+  welcomeMsg: Hello from Test
+
